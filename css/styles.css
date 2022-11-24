@@ -164,8 +164,9 @@ address {
 }
 
 .hero-title {
-  padding-left: 200px;
-  padding-right: 200px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   color: var(--background-text-color);
   font-weight: 900;
@@ -382,10 +383,6 @@ address {
 
 .project-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
-
-.project-item {
-  /* border: 1px solid var(--border-project-color); */
 }
 
 .project-item-border {
